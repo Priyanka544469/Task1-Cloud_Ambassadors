@@ -52,7 +52,7 @@ Add an inbound rule to allow HTTP (port 80) or your app's port (e.g., 3000).
 Launch the instance.
 Step 2: Connect to Your Instance
 
-Once the instance is running, connect via SSH: bash ssh -i "Jagan.pem" ubuntu@ec2-18-236-169-157.us-west-2.compute.amazonaws.com
+Once the instance is running, connect via SSH: bash ssh -i "Jagan.pem" ubuntu@ec2-18-236-192-223.us-west-2.compute.amazonaws.com
 Step 3: Install Node.js
 
 Update package lists: bash sudo apt update
@@ -60,7 +60,7 @@ Update package lists: bash sudo apt update
 Install Node.js and npm: bash sudo apt install -y nodejs npm
 
 Step 4: Deploy Your Application
-Clone your GitHub repository on the EC2 instance: bash git clone https://github.com/pavan5779/Task-1_Cloud_Ambassadors.git cd todo-app
+Clone your GitHub repository on the EC2 instance: bash git clone https://github.com/Priyanka544469/Task1-Cloud_Ambassadors.git
 
 Install the dependencies: bash npm install
 
